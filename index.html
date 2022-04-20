@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SaaSMaker Template</title>
+    <!-- Bootstrap core CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="asset/css/custom.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a77376b32e.js" crossorigin="anonymous"></script>
+    <!-- SwiperJS -->
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav-bar">
+    <!--beging: Header nav-->
+   <div id="nav-bar">
+        <nav id="top" class="header navbar fixed-top navbar-expand-lg fw-bold">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand" href="index.html" target="_top">
+                    <img src="asset/img/logo.png" width="180px" alt=""></a>
+                <div class="collapse navbar-collapse d-none d-lg-block d-xl-none" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="page-scroll nav-link" href="#service">서비스 소개</a></li>
+                        <li class="nav-item"><a class="page-scroll nav-link" href="#achivement">서비스 강점</a></li>
+                        <li class="nav-item"><a class="page-scroll nav-link" href="#team">서비스 대상</a></li>
+                        <li class="nav-item"><a class="page-scroll nav-link" href="#portfolio">주요 고객사</a></li>
+                        <li class="nav-item"><a class="page-scroll nav-link" href="#price">가격</a></li>
+                        <li class="nav-item"><a class="page-scroll nav-link" href="#client">후기</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="d-none d-lg-block btn btn-success"><i class="fa-solid fa-arrow-right-to-bracket me-2"></i>sign in</button>
+                <!--begin: Mobile nav-->
+                <nav class="mobile-nav d-flex d-lg-none" role="navigation">
+                    <div id="menuToggle">
+                      <input type="checkbox" /><span></span><span></span><span></span>
+                    <ul id="menu">
+                      <li><a href="#service">서비스 소개</a></li>
+                      <li><a href="#achivement">서비스 강점</a></li>
+                      <li><a href="#team">서비스 대상</a></li>
+                      <li><a href="#portfolio">주요 고객사</a></li>
+                      <li><a href="#price">가격</a></li>
+                      <li><a href="#client">후기</a></li>
+                      <li><button type="button" class="btn btn-success"><i class="fa-solid fa-arrow-right-to-bracket me-2"></i>sign in</button></li>
+                    </ul>
+                   </div>
+                </nav>
+                <!--end: Mobile nav-->
+            </div>
+        </nav>
+   </div>
+   <!--end: Header nav-->
+
+   <!--begin: Hero Section-->
+    <div class="hero-section d-flex flex-column flex-center">
+        <h2 class="text-center text-white mt-4 mb-4">Build An Outstanding Solutions<br>with <span class="landing-text fw-bold">The Best SaaSMaker</span></h2>
+        <button type="button" class="btn btn-primary">Try SaaSMaker</button>
+    </div>
+    <!--end: Hero Section-->
+
+
+    <!--begin: How it Works-->
+    <div id="service" class="container mt-5">
+        <div class="text-center">
+            <h2 class="fw-bold mb-3">How it Works</h2>
+            <h5 class="text-muted">SaaSMaker 사용 방법에 대해 알아보세요.</h5>
+        </div>
+        <div class="row works">
+            <div class="col-md-4 d-flex flex-column flex-center">
+                <img src="asset/img/saasmaker-img-01.png" alt="">
+                <div class="d-flex flex-row align-items-center mb-3"><span class="step-badge fw-bold me-2">1</span><span class="fw-bold fs-5">회원가입</span></div>
+                <p class="text-center text-muted">SaaSMaker에서 회원가입을 완료후 해당 서비스를 이용합니다. SaaSMaker에서는 이런 저런 서비스를 이용할 수 있습니다.
+                </p>
+            </div>
+            <div class="col-md-4 d-flex flex-column flex-center">
+                <img src="asset/img/saasmaker-img-02.png" alt="">
+                <div class="d-flex flex-row align-items-center mb-3"><span class="step-badge fw-bold me-2">2</span><span class="fw-bold fs-5">SaaSMaker 이용</span></div>
+                <p class="text-center text-muted">SaaSMaker에서 회원가입을 완료후 해당 서비스를 이용합니다. SaaSMaker에서는 이런 저런 서비스를 이용할 수 있습니다.
+                </p>
+            </div>
+            <div class="col-md-4 d-flex flex-column flex-center">
+                <img src="asset/img/saasmaker-img-03.png" alt="">
+                <div class="d-flex flex-row align-items-center mb-3"><span class="step-badge fw-bold me-2">3</span><span class="fw-bold fs-5">서비스 사용하기</span></div>
+                <p class="text-center text-muted">SaaSMaker에서 회원가입을 완료후 해당 서비스를 이용합니다. SaaSMaker에서는 이런 저런 서비스를 이용할 수 있습니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--end: How it Works-->
+
+    <!--begin: UI Slider-->
+    <div class="container ui-slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="card-rounded mw-100" src="asset/img/slider-img-01.png" alt=""></div>
+              <div class="swiper-slide"><img class="card-rounded mw-100" src="asset/img/slider-img-02.png" alt=""></div>
+              <div class="swiper-slide"><img class="card-rounded mw-100" src="asset/img/slider-img-03.png" alt=""></div>
+              <div class="swiper-slide"><img class="card-rounded mw-100" src="asset/img/slider-img-04.png" alt=""></div>
+              <div class="swiper-slide"><img class="card-rounded mw-100" src="asset/img/slider-img-05.png" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>      
+    </div>
+    <!--end: UI Slider-->
+
+    <!--begin: Top Curve-->
+    <div class="landing-curve">
+        <svg viewBox="15 -1 1470 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 48C4.93573 47.6644 8.85984 47.3311 12.7725 47H1489.16C1493.1 47.3311 1497.04 47.6644 1501 48V47H1489.16C914.668 -1.34764 587.282 -1.61174 12.7725 47H1V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+    <!--end: Top Curve-->
+
+    <!--begin: Achievement-->
+    <div id="achivement" class="dark-bg achivement">
+        <div class="container">
+            <div class="mb-5 text-center text-white">
+                <h2 class="fw-bold mb-3">We Make Things Better</h3>
+                <h5 class="text-muted">SaaSMaker의 여러 강점들을 확인해보세요.</h5>
+            </div>
+            <div class="d-flex flex-md-row flex-column align-items-center justify-content-lg-between mx-auto text-gray mb-4 mb-lg-5 feature-wrap">
+                <div class="d-flex flex-column flex-center octagon">
+                    <i class="fa-solid fa-cubes text-white"></i>
+                    <h2 class="text-white fw-bold mt-3 mb-2">700+</h2>
+                    <h5 class="mb-0">제휴회사</h5>
+                </div>
+                <div class="d-flex flex-column flex-center mx-md-3 mx-lg-0 octagon">
+                    <i class="fa-solid fa-chart-pie text-white"></i>
+                    <h2 class="text-white fw-bold mt-3 my-2">80K+</h2>
+                    <h5 class="mb-0">8천개의 통계기반</h5>
+                </div>
+                <div class="d-flex flex-column flex-center octagon">
+                    <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    <h2 class="text-white fw-bold mt-3 my-2">35M+</h2>
+                    <h5 class="mb-0">35만 누적 구매</h5>
+                </div>
+            </div>
+            <div class="fs-5 fw-bold text-white text-center mb-3">
+                <span class="fs-4 lh-1 text-muted">“</span>SaaSMaker로 SaaS 플랫폼 시장에서<br>
+                <span class="primary me-1">좀 더 강력하고</span>, 편한 방법으로 이용하세요.<span class="fs-4 lh-1 text-muted">”</span>
+            </div>
+            <div class="fs-5 fw-bold text-center text-white">
+                <span class="primary">디딤365, </span>SaaSMaker CEO
+            </div>
+        </div>
+    </div>
+    <!--end: Achievement-->
+
+    <!--begin: Bottom Curve-->
+    <div class="landing-curve mb-10 mb-lg-20">
+        <svg viewBox="15 12 1470 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 11C3.93573 11.3356 7.85984 11.6689 11.7725 12H1488.16C1492.1 11.6689 1496.04 11.3356 1500 11V12H1488.16C913.668 60.3476 586.282 60.6117 11.7725 12H0V11Z" fill="currentColor"></path>
+        </svg>
+    </div>
+    <!--end: Bottom Curve-->
+
+    <!--begin: Team-->
+    <div id="team" class="container team">
+        <div class="text-center">
+            <h2 class="fw-bold mb-3">For whom</h2>
+            <h5 class="text-muted">SaaSMaker가 필요한 대상 고개들</h5>
+        </div>
+       <!--begin: Team Slider-->
+       <div class="swiper mt-5 team-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="asset/img/target-1.png" alt=""><h4>그룹웨어 솔루션</h4><h5>그룹웨어솔루션 회사</h5></div>
+          <div class="swiper-slide"><img src="asset/img/target-2.png" alt=""><h4>인사관리 솔루션</h4><h5>인사관리솔루션 회사</h5></div>
+          <div class="swiper-slide"><img src="asset/img/target-3.png" alt=""><h4>채용 솔루션</h4><h5>채용관리 솔루션 회사</h5></div>
+          <div class="swiper-slide"><img src="asset/img/target-4.png" alt=""><h4>메일 솔루션</h4><h5>메일솔루션 회사</h5></div>
+          <div class="swiper-slide"><img src="asset/img/target-5.png" alt=""><h4>화상전화 솔루션</h4><h5>화상전화 솔루션 회사</h5></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+      <!--end: Team Slider-->
+    </div>
+    <!--end: Team-->
+
+    <!--begin: Project-->
+    <div id="portfolio" class="container project">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="fw-bold text-center">Our Clients</h2>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">전체</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">공공기관</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">SaaS</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content project-tab" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="refer">
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_01.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_01.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_02.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_02.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_03.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_03.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_04.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_04.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_05.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_05.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_06.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_06.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_07.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_07.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_08.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_08.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_09.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_09.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_10.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_10.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_11.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_11.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_12.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_12.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="refer">
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_01.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_01.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_02.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_02.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_03.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_03.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_04.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_04.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="refer">
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_05.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_05.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_06.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_06.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_07.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_07.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_08.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_08.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_09.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_09.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_10.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_10.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_11.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_11.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="refer-item">
+                                <a data-fslightbox="gallery" href="asset/img/refer/refer_12.png">
+                                    <img class="card-rounded" src="asset/img/refer/refer_12.png" alt="">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--end: Project-->
+
+    <!--begin: Top Curve-->
+    <div class="landing-curve">
+        <svg viewBox="15 -1 1470 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 48C4.93573 47.6644 8.85984 47.3311 12.7725 47H1489.16C1493.1 47.3311 1497.04 47.6644 1501 48V47H1489.16C914.668 -1.34764 587.282 -1.61174 12.7725 47H1V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+    <!--end: Top Curve-->
+
+    <!--begin: Price-->
+    <div id="price" class="dark-bg price">
+        <div class="container">
+            <div class="mb-5 text-center text-white">
+                <h2 class="fw-bold mb-3">Clear Pricing Makes it Easy</h3>
+                <h5 class="text-muted">SaaSMaker의 가격을 확인해보세요.</h5>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 px-4">
+                    <!--begin:price option-->
+                    <div class="d-flex h-100 align-items-center">
+                        <div class="w-100 d-flex flex-column flex-center px-5 price-card side-price">
+                            <h4 class="fw-bold">Startup</h4>
+                            <span class="text-muted">스타트업에게 딱맞는 요금</span>
+                            <div class="text-center"><span class="primary fw-bold fs-3">99,000</span> <span class="text-muted">원/월</span></div>
+                            <div class="w-100 mt-4 mb-5">
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800 text-start pe-3">활성 유저 10명까지</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800 text-start pe-3">통합 프로젝트 30개 까지</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800">꼼꼼한 통계 플랫폼</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="black"></rect>
+                                            <rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="black"></rect>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800">타켓 타임라인 & 파일들</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="black"></rect>
+                                            <rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="black"></rect>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack">
+                                    <span class="fw-bold fs-6 text-gray-800">무제한 프로젝트</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="black"></rect>
+                                            <rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="black"></rect>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                            </div>
+                            <a href="#" class="btn btn-primary">서비스 신청</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-4 my-lg-0 px-4">
+                    <!--begin:price option-->
+                    <div class="d-flex h-100 align-items-center">
+                        <div class="w-100 d-flex flex-column flex-center px-5 price-card center-price">
+                            <h4 class="fw-bold text-white">Business</h4>
+                            <span class="text-white opacity-75">중소기업에게 딱맞는 요금</span>
+                            <div class="text-center"><span class="text-white fw-bold fs-3">199,000</span> <span class="text-white opacity-75">원/월</span></div>
+                            <div class="w-100 mt-4 mb-5">
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-white opacity-75 text-start pe-3">활성 유저 10명까지</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-white opacity-75 text-start pe-3">통합 프로젝트 30개 까지</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-white opacity-75">꼼꼼한 통계 플랫폼</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-white opacity-75">타켓 타임라인 & 파일들</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack">
+                                    <span class="fw-bold fs-6 text-white opacity-75">무제한 프로젝트</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <rect x="7" y="15.3137" width="12" height="2" rx="1" transform="rotate(-45 7 15.3137)" fill="black"></rect>
+                                            <rect x="8.41422" y="7" width="12" height="2" rx="1" transform="rotate(45 8.41422 7)" fill="black"></rect>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                            </div>
+                            <a href="#" class="btn btn-white">서비스 신청</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-4">
+                    <!--begin:price option-->
+                    <div class="d-flex h-100 align-items-center">
+                        <div class="w-100 d-flex flex-column flex-center px-5 price-card side-price">
+                            <h4 class="fw-bold">Enterprise</h4>
+                            <span class="text-muted">기업에게 딱맞는 요금</span>
+                            <div class="text-center"><span class="primary fw-bold fs-3">299,000</span> <span class="text-muted">원/월</span></div>
+                            <div class="w-100 mt-4 mb-5">
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800 text-start pe-3">활성 유저 10명까지</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800 text-start pe-3">통합 프로젝트 30개 까지</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen043.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800">꼼꼼한 통계 플랫폼</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack mb-2">
+                                    <span class="fw-bold fs-6 text-gray-800">타켓 타임라인 & 파일들</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                                <!--begin::Item-->
+                                <div class="d-flex flex-stack">
+                                    <span class="fw-bold fs-6 text-gray-800">무제한 프로젝트</span>
+                                    <!--begin::Svg Icon | path: icons/duotune/general/gen040.svg-->
+                                    <span class="svg-icon svg-icon-1 svg-icon-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                                            <path d="M10.4343 12.4343L8.75 10.75C8.33579 10.3358 7.66421 10.3358 7.25 10.75C6.83579 11.1642 6.83579 11.8358 7.25 12.25L10.2929 15.2929C10.6834 15.6834 11.3166 15.6834 11.7071 15.2929L17.25 9.75C17.6642 9.33579 17.6642 8.66421 17.25 8.25C16.8358 7.83579 16.1642 7.83579 15.75 8.25L11.5657 12.4343C11.2533 12.7467 10.7467 12.7467 10.4343 12.4343Z" fill="black"></path>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+                                <!--end::Item-->
+                            </div>
+                            <a href="#" class="btn btn-primary">서비스 신청</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end: Price-->
+
+    <!--begin: Bottom Curve-->
+    <div class="landing-curve mb-10 mb-lg-20">
+        <svg viewBox="15 12 1470 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 11C3.93573 11.3356 7.85984 11.6689 11.7725 12H1488.16C1492.1 11.6689 1496.04 11.3356 1500 11V12H1488.16C913.668 60.3476 586.282 60.6117 11.7725 12H0V11Z" fill="currentColor"></path>
+        </svg>
+    </div>
+    <!--end: Bottom  Curve-->
+
+    <!--begin: Clients-->
+    <div id="client" class="container">
+        <div class="client">
+            <div class="text-center">
+                <h2 class="fw-bold mb-3">What Our Clients Say</h2>
+                <h5 class="text-muted">SaaSMaker를 이용한 고객들의 후기</h5>
+            </div>
+            <div class="row py-4 mt-4">
+                <div class="col-lg-4 px-5">
+                    <div class="rating mb-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="fw-bold fs-4">이정도로 깨끗하고 잘 갖춰진 템플릿은 본적이 없습니다</div>
+                    <div class="text-gray-500 fs-6 mt-2 mb-3">The most well thought out design theme I have ever used. The codes are up to tandard. The css styles are very clean. In fact the cleanest and the most up to standard I have ever seen.</div>
+                    <div class="fs-6 fw-bold">디딤365</div>
+                    <div class="text-gray-500">기업부설연구소 김디딤 대리</div>
+                </div>
+                <div class="col-lg-4 my-5 my-lg-0 px-5">
+                    <div class="rating mb-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="fw-bold fs-4">이정도로 깨끗하고 잘 갖춰진 템플릿은 본적이 없습니다</div>
+                    <div class="text-gray-500 fs-6 mt-2 mb-3">The most well thought out design theme I have ever used. The codes are up to tandard. The css styles are very clean. In fact the cleanest and the most up to standard I have ever seen.</div>
+                    <div class="fs-6 fw-bold">디딤365</div>
+                    <div class="text-gray-500">기업부설연구소 김디딤 대리</div>
+                </div>
+                <div class="col-lg-4 px-5">
+                    <div class="rating mb-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="fw-bold fs-4">이정도로 깨끗하고 잘 갖춰진 템플릿은 본적이 없습니다</div>
+                    <div class="text-gray-500 fs-6 mt-2 mb-3">The most well thought out design theme I have ever used. The codes are up to tandard. The css styles are very clean. In fact the cleanest and the most up to standard I have ever seen.</div>
+                    <div class="fs-6 fw-bold">디딤365</div>
+                    <div class="text-gray-500">기업부설연구소 김디딤 대리</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end: Clietns-->
+
+    <!--begin: Green box-->
+    <div class="container green-box-wrap">
+        <div class="green-box row card-rounded">
+            <div class="col-lg-6">
+                <div class="font-1 fw-bolder text-white mb-2">SaaSMaker로 시작해보세요, 
+                <span class="fw-normal">더욱 더 멋진 서비스를!</span></div>
+                <div class="font-2 text-white fw-bold opacity-75">100,000만명이 경험한 SaaSMaker를 통해 만나보세요.</div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-lg-end">
+                <a href="index.html" class="btn btn-lg btn-outline border-2 btn-outline-white flex-shrink-0 my-2 mt-3 mt-lg-0">SaaSMaker 만나기</a>
+            </div>
+        </div>
+    </div>
+    <!--end: Green box-->
+
+    <!--begin: Top Curve-->
+    <div class="landing-curve">
+        <svg viewBox="15 -1 1470 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 48C4.93573 47.6644 8.85984 47.3311 12.7725 47H1489.16C1493.1 47.3311 1497.04 47.6644 1501 48V47H1489.16C914.668 -1.34764 587.282 -1.61174 12.7725 47H1V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+    <!--end: Top Curve-->
+
+    <!--begin: Footer-->
+    <div class="dark-bg pt-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="rounded landing-dark-border p-4 mb-4">
+                        <h4 class="text-white">도움이 필요하세요? 언제든 연락하세요</h4>
+                        <span class="fw-normal fs-6 text-gray-700">Email us to 
+                        <a href="index.html" class="text-white opacity-50 text-hover-primary">support@saasmaker.com</a></span>
+                    </div>
+                    <div class="rounded landing-dark-border p-4">
+                        <h4 class="text-white">튜토리얼이 필요하세요? 여기서 확인해보세요.</h4>
+                        <span class="fw-normal fs-6 text-gray-700">링크 눌러 확인하기 
+                        <a href="index.html" class="text-white opacity-50 text-hover-primary">튜토리얼 보기</a></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="d-flex flex-column me-3 me-md-5">
+                            <h6 class="fw-bold text-gray-400 mb-3">서비스 가이드 / FAQ</h6>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html">FAQ</a>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html">Documentaions</a>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html">Video Tuts</a>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html">Changelog</a>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html">Tutorials</a>
+                        </div>
+                        <div class="d-flex flex-column ms-3 ms-md-5">
+                            <h6 class="fw-bold text-gray-400 mb-3">Stay Connected</h6>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html"><i class="fa-brands fa-instagram-square"></i> INSTAGRAM</a>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html"><i class="fa-brands fa-facebook-square"></i> FACEBOOK</a>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html"><i class="fa-brands fa-blogger"></i> BLOG</a>
+                            <a class="text-white opacity-50 text-hover-primary fs-6 mb-3" href="index.html"><i class="fa-brands fa-linkedin"></i> LINKED IN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator mt-5">
+            <div class="container">
+                <div class="d-flex flex-lg-row flex-stack footer-bottom">
+                    <div class="d-flex align-items-center">
+                        <a class="footer-img" href="index.html"><img src="asset/img/logo.png" alt=""></a>
+                        <span class="fs-6 text-gray-500 ms-3" href="index.html">© 2022 SaaSMaker Inc.</span>
+                    </div>
+                    <ul class="menu menu-gray-600 menu-hover-primary fw-bold mb-1 mb-lg-0">
+                        <li class="menu-item">
+                            <a href="index.html" target="_blank" class="menu-link px-2">About</a>
+                        </li>
+                        <li class="menu-item mx-4 mx-lg-5">
+                            <a href="index.html" target="_blank" class="menu-link px-2">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end: Footer-->
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Custom JS script-->
+    <script src="asset/js/saasmaker.js"></script>
+    <!-- fslightboxJS script-->
+    <script src="asset/js/fslightbox.js"></script>
+</body>
+</html>
